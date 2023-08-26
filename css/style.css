@@ -1,0 +1,115 @@
+.bg-fav{
+	background-color: aliceblue;
+}
+.font-fav{
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.font-google{
+	font-family: 'Roboto', sans-serif;
+}
+.font-space{
+	font-family: 'Orbitron', sans-serif;
+}
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+  background-image:url('img/globe.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: -270px;
+  background-position-y: -240px;
+}
+header{
+	background-color: black;
+	opacity: 0.7;
+	padding-bottom: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+nav{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	display: flex;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+hr{
+	color: antiquewhite;
+	opacity: 0.7;
+	padding-bottom: 0;
+}
+.nav-text-m{
+	color: antiquewhite;
+	font-size: 50px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-decoration: none;
+}
+.nav-text-m:hover{
+	color: powderblue;
+}
+.nav-text-s{
+	margin-right: 10px;
+	color: antiquewhite;
+	font-size: 30px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-decoration: none;
+}
+.nav-text-s:hover{
+	color: powderblue;
+}
+.nav-links{
+	margin-left: 300px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.body-div{
+	margin: 0 100px;
+}
+.body-div h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 30px;
+}
+.body-div h3{
+	text-align: center;
+	font-style: oblique;
+	font-size: 40px;
+	font-weight: 20px;
+}
+.body-div2{
+	background-color: black;
+	opacity: 0.9;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.cards{
+	margin: 0 70px;
+	padding: 20px;
+	width: 300px;
+	display: grid;
+	text-align: center;
+}
+.cards img{
+	border-radius: 7px;
+	width: 300px;
+	height: auto;
+	opacity: 1;
+
+}
+.cards h1{
+	color: antiquewhite;
+	margin-top: 10px;
+
+}
+.cards p{
+	color: antiquewhite;
+	padding-top: 10px;
+}
